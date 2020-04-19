@@ -1,10 +1,6 @@
 import java.util.Scanner;
 public class HangmanApp {
-public static void main(String[] args) {
-
-//String[] wordsToGuess = {"Naruto", "DeathNote", "Totoro", "OnePeace", "DragonBall", "Bleach", "Hellsing" };
-//String wordTry = wordsToGuess[(int) (Math.random() * wordsToGuess.length)];
-	 
+public static void main(String[] args) {	 
 	 int wrongCount = 0;
 	 String star = "*";
 	 String guess;
@@ -14,15 +10,9 @@ public static void main(String[] args) {
 	System.out.println("If you guess wrong 6 times, you lose ᕙ(⇀‸↼‶)ᕗ");
 	System.out.println();	
 	//decl.Hangman class obj
-	HangmanLetterMethods letterMethods = new HangmanLetterMethods(args);
+	HangmanLetterMethods letterMethods = new HangmanLetterMethods(args);}
 
-HangmanLetterMethods.getWordsToGuess();
-guess = String("Guess any letter in the word");
-HangmanLetterMethods.setGuess();
-HangmanLetterMethods.setStar();
-HangmanLetterMethods.setCount(wrongCount);
-
-}
+	
 
 
 public static void hangmanImage() {
@@ -52,12 +42,6 @@ public static void hangmanImage() {
 	
 }
 
-public static String String(String string) {
-	
-	return string;
-}
 
-public static void hang(String guess) {
 	
-}
 }
